@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Nov 25 20:30:26 2021
+# Process ID: 9012
+# Current directory: C:/Users/USER/Desktop/VideoSystem1080p
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12324 C:\Users\USER\Desktop\VideoSystem1080p\VideoSystem1080p.xpr
+# Log file: C:/Users/USER/Desktop/VideoSystem1080p/vivado.log
+# Journal file: C:/Users/USER/Desktop/VideoSystem1080p\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk -hwspec C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk/VideoSystem1080p_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+open_run impl_1

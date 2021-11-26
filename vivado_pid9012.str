@@ -1,0 +1,823 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 9012
+
+Current time: 	11/25/21 8:31:06 PM GMT+08:00
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=·s²Ó©úÅé,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xilinx2016.1/Vivado/2016.1/tps/win64/jre
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Desktop/VideoSystem1080p
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: D:/Xilinx2016.1/Vivado
+RDI Data directory: D:/Xilinx2016.1/Vivado/2016.1/data
+RDI Bin directory: D:/Xilinx2016.1/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 423 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 30 MB (+28916kb) [00:00:12]
+// [Engine Memory]: 390 MB (+257513kb) [00:00:12]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\USER\Desktop\VideoSystem1080p\VideoSystem1080p.xpr. Version: Vivado v2016.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 424 MB. GUI used memory: 28 MB. Current time: 11/25/21 8:31:08 PM GMT+08:00
+// [Engine Memory]: 424 MB (+15429kb) [00:00:17]
+// [Engine Memory]: 458 MB (+13491kb) [00:00:27]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 491 MB. GUI used memory: 28 MB. Current time: 11/25/21 8:31:23 PM GMT+08:00
+// [Engine Memory]: 491 MB (+10167kb) [00:00:32]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 35 MB (+3765kb) [00:00:38]
+// [Engine Memory]: 540 MB (+25069kb) [00:00:38]
+// [GUI Memory]: 44 MB (+7781kb) [00:00:39]
+// [GUI Memory]: 54 MB (+7859kb) [00:00:41]
+// [Engine Memory]: 581 MB (+14941kb) [00:00:41]
+// [GUI Memory]: 60 MB (+3385kb) [00:00:41]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/USER/Desktop/IP1080RGB'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2016.1/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 66 MB (+2784kb) [00:00:43]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Project name: VideoSystem1080p; location: C:/Users/USER/Desktop/VideoSystem1080p; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 799.836 ; gain = 171.738 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 70 MB (+915kb) [00:01:01]
+// [Engine Memory]: 614 MB (+3873kb) [00:01:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 614 MB. GUI used memory: 45 MB. Current time: 11/25/21 8:32:38 PM GMT+08:00
+// Elapsed time: 63 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VideoSystem1080p_wrapper (VideoSystem1080p_wrapper.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk -hwspec C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk/VideoSystem1080p_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk -hwspec C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.sdk/VideoSystem1080p_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; -2.2357661724090576 ; -3193.408447265625 ; 0.0185189638286829 ; 0.0 ; 0.0 ; 0 ; 11610 ; 13222 ; 9 ; 0 ; 0 ; Thu Nov 25 03:14:25 GMT+08:00 2021 ; 00:07:35 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // W:as (JViewport:JComponent, cv:JFrame)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 1.9s
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// [GUI Memory]: 73 MB (+96kb) [00:02:05]
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// [GUI Memory]: 78 MB (+950kb) [00:02:09]
+// [Engine Memory]: 651 MB (+7145kb) [00:02:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 48 MB. Current time: 11/25/21 8:33:03 PM GMT+08:00
+// [GUI Memory]: 85 MB (+2716kb) [00:03:03]
+// [GUI Memory]: 89 MB (+704kb) [00:11:37]
+// [GUI Memory]: 94 MB (+466kb) [00:18:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 49 MB. Current time: 11/25/21 9:03:06 PM GMT+08:00
+// [GUI Memory]: 100 MB (+595kb) [00:33:49]
+// [GUI Memory]: 105 MB (+683kb) [00:52:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 45 MB. Current time: 11/25/21 9:33:09 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 45 MB. Current time: 11/25/21 10:03:12 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 45 MB. Current time: 11/25/21 10:33:15 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 45 MB. Current time: 11/25/21 11:03:17 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 46 MB. Current time: 11/25/21 11:33:20 PM GMT+08:00
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.3s
+// Elapsed time: 11026 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // x:Y (w:G, cv:JFrame) - Node
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.1   **** Build date : Apr  8 2016-16:12:32     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+// Elapsed time: 10 seconds
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 442 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 645 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 53 MB. Current time: 11/26/21 12:03:23 AM GMT+08:00
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 994 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 160 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.runs/impl_1/VideoSystem1080p_wrapper.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 51 MB. Current time: 11/26/21 12:33:26 AM GMT+08:00
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248445883 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 51 MB. Current time: 11/26/21 1:03:29 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 1:33:32 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 2:03:35 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 2:33:38 AM GMT+08:00
+// Elapsed time: 9715 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Serial I/O Scans", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 3:03:41 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 3:33:43 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 50 MB. Current time: 11/26/21 4:03:46 AM GMT+08:00
+// Elapsed time: 4730 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 22, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bL:g (cv:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 708 MB. GUI used memory: 50 MB. Current time: 11/26/21 4:16:18 AM GMT+08:00
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 763 MB (+83199kb) [07:45:29]
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 813 MB (+12942kb) [07:45:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 831 MB. GUI used memory: 50 MB. Current time: 11/26/21 4:16:33 AM GMT+08:00
+// [Engine Memory]: 1,179 MB (+341041kb) [07:45:48]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,221 MB. GUI used memory: 51 MB. Current time: 11/26/21 4:16:48 AM GMT+08:00
+// [Engine Memory]: 1,273 MB (+36167kb) [07:45:57]
+// Xgd.load filename: D:/Xilinx2016.1/Vivado/2016.1/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// [Engine Memory]: 1,354 MB (+18622kb) [07:46:00]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 5.7s
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 115 MB (+4465kb) [07:46:07]
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1757 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.1 INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper_early.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.srcs/sources_1/bd/VideoSystem1080p/ip/VideoSystem1080p_clk_wiz_0_0/VideoSystem1080p_clk_wiz_0_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [C:/Users/USER/Desktop/VideoSystem1080p/VideoSystem1080p.srcs/sources_1/bd/VideoSystem1080p/ip/VideoSystem1080p_clk_wiz_0_0/VideoSystem1080p_clk_wiz_0_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1741.762 ; gain = 488.102 
+// Tcl Message: Finished Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper_early.xdc] Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper.xdc] Finished Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper.xdc] Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper_late.xdc] Finished Parsing XDC File [C:/Users/USER/Desktop/VideoSystem1080p/.Xil/Vivado-9012-21001301Cody/dcp/VideoSystem1080p_wrapper_late.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1777.410 ; gain = 35.633 
+// Tcl Message: Restored from archive | CPU: 4.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1777.410 ; gain = 35.633 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1446 instances were transformed.   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 5 instances   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances   RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 720 instances   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 720 instances  
+// ExpRunCommands.openImplResults elapsed time: 58.2s
+// 'dF' command handler elapsed time: 58 seconds
+// [Engine Memory]: 1,429 MB (+6992kb) [07:46:09]
+// Device view-level: 0.0
+// Elapsed time: 59 seconds
+dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Open Report Power : addNotify
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 122 MB (+1040kb) [07:46:17]
+// [GUI Memory]: 129 MB (+1645kb) [07:46:17]
+// [GUI Memory]: 137 MB (+1553kb) [07:46:17]
+// [GUI Memory]: 144 MB (+280kb) [07:46:17]
+// [GUI Memory]: 153 MB (+1403kb) [07:46:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,496 MB. GUI used memory: 117 MB. Current time: 11/26/21 4:17:12 AM GMT+08:00
+// Elapsed time: 10 seconds
+dismissDialog("Open Report Power"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Open Timing Summary : addNotify
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 164 MB (+2907kb) [07:46:22]
+// [Engine Memory]: 1,503 MB (+2460kb) [07:46:22]
+dismissDialog("Open Timing Summary"); // bL:g (cv:JFrame)
+// Elapsed time: 307 seconds
+selectTab((HResource) null, (HResource) null, "Package Pins", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 5); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; -2.2357661724090576 ; -3193.408447265625 ; 0.0185189638286829 ; 0.0 ; 0.0 ; 0 ; 11610 ; 13222 ; 9 ; 0 ; 0 ; Thu Nov 25 03:14:25 GMT+08:00 2021 ; 00:07:35 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "100", 3, false); // W:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; -2.2357661724090576 ; -3193.408447265625 ; 0.0185189638286829 ; 0.0 ; 0.0 ; 0 ; 11610 ; 13222 ; 9 ; 0 ; 0 ; Thu Nov 25 03:14:25 GMT+08:00 2021 ; 00:07:35 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "100", 3, false, false, false, false, false, true); // W:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; -2.2357661724090576 ; -3193.408447265625 ; 0.0185189638286829 ; 0.0 ; 0.0 ; 0 ; 11610 ; 13222 ; 9 ; 0 ; 0 ; Thu Nov 25 03:14:25 GMT+08:00 2021 ; 00:07:35 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "100", 3, false); // W:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; -2.2357661724090576 ; -3193.408447265625 ; 0.0185189638286829 ; 0.0 ; 0.0 ; 0 ; 11610 ; 13222 ; 9 ; 0 ; 0 ; Thu Nov 25 03:14:25 GMT+08:00 2021 ; 00:07:35 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "100", 3, false); // W:as (JViewport:JComponent, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Power", 6); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2, "Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2, "Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2, "Utilization Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+// [GUI Memory]: 173 MB (+1221kb) [07:52:02]
+// Elapsed time: 43 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Synthesis Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 501374 ; ", 1, "Vivado Synthesis Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Synthesis Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 501374 ; ", 1); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Synthesis Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 501374 ; ", 1, "Vivado Synthesis Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Synthesis Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 501374 ; ", 1, "Vivado Synthesis Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Post opt_design DRC Report ; Thu Nov 25 03:15:44 GMT+08:00 2021 ; 30231 ; ", 6, "Post opt_design DRC Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Post opt_design DRC Report ; Thu Nov 25 03:15:44 GMT+08:00 2021 ; 30231 ; ", 6, "Post opt_design DRC Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Post opt_design DRC Report ; Thu Nov 25 03:15:44 GMT+08:00 2021 ; 30231 ; ", 6); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Post opt_design DRC Report ; Thu Nov 25 03:15:44 GMT+08:00 2021 ; 30231 ; ", 6, "Post opt_design DRC Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12, "Vivado Implementation Log", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12, "Vivado Implementation Log", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12, "Vivado Implementation Log", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:18:15 GMT+08:00 2021 ; 10222 ; ", 15, "Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:18:15 GMT+08:00 2021 ; 10222 ; ", 15, "Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:18:15 GMT+08:00 2021 ; 10222 ; ", 15); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:18:15 GMT+08:00 2021 ; 10222 ; ", 15, "Utilization Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "IO Report ; Thu Nov 25 03:18:14 GMT+08:00 2021 ; 125472 ; ", 14, "IO Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "IO Report ; Thu Nov 25 03:18:14 GMT+08:00 2021 ; 125472 ; ", 14); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "IO Report ; Thu Nov 25 03:18:14 GMT+08:00 2021 ; 125472 ; ", 14, "IO Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12, "Vivado Implementation Log", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 12, "Vivado Implementation Log", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ; Thu Nov 25 03:21:10 GMT+08:00 2021 ; 289099 ; Open", 30, "Timing Summary Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ; Thu Nov 25 03:21:10 GMT+08:00 2021 ; 289099 ; Open", 30); // z:as (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,520 MB. GUI used memory: 126 MB. Current time: 11/26/21 4:24:04 AM GMT+08:00
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ; Thu Nov 25 03:21:10 GMT+08:00 2021 ; 289099 ; Open", 30, "Timing Summary Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ; Thu Nov 25 03:21:10 GMT+08:00 2021 ; 289099 ; Open", 30, "Timing Summary Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Vivado Implementation Log ; Thu Nov 25 03:22:00 GMT+08:00 2021 ; 94573 ; ", 36, "Vivado Implementation Log", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Clock Utilization Report ; Thu Nov 25 03:21:20 GMT+08:00 2021 ; 22460 ; ", 32, "Clock Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 71 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Vivado Implementation Log - impl_1", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Post opt_design DRC Report - impl_1", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2, "Utilization Report", 0, false); // z:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Utilization Report ; Thu Nov 25 03:14:09 GMT+08:00 2021 ; 8097 ; ", 2, "Utilization Report", 0, false, false, false, false, false, true); // z:as (JViewport:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 67 seconds
+selectTab((HResource) null, (HResource) null, "Power", 6); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Power Supply]", 2, false); // h:p (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // h:p (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 100 seconds
+selectCodeEditor("Utilization Report - synth_1", 85, 186); // F:bH (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Utilization Report - synth_1", 73, 202); // F:bH (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 125 MB. Current time: 11/26/21 7:37:38 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/26/21 8:07:40 PM GMT+08:00
+// [GUI Memory]: 182 MB (+24kb) [24:01:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 125 MB. Current time: 11/26/21 8:37:43 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/26/21 9:07:45 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/26/21 9:37:48 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/26/21 10:07:51 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/26/21 10:37:54 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/26/21 11:07:57 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/26/21 11:37:59 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 12:08:02 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/27/21 12:38:05 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 1:08:08 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 1:38:11 AM GMT+08:00
+// Elapsed time: 77463 seconds
+selectCodeEditor("Utilization Report - synth_1", 317, 231); // F:bH (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 2:08:14 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 2:38:17 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 3:08:20 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/27/21 3:38:23 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 125 MB. Current time: 11/27/21 4:08:26 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 4:38:29 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 123 MB. Current time: 11/27/21 5:08:31 AM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 124 MB. Current time: 11/27/21 5:38:34 AM GMT+08:00
+// Elapsed time: 13146 seconds
+selectTab((HResource) null, (HResource) null, "Timing", 7); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 4, true); // a:F (JViewport:JComponent, cv:JFrame) - Node
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, unconstrained_internal_endpoints]", 8, false, false, false, false, false, true); // a:F (JViewport:JComponent, cv:JFrame) - Double Click
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, no_output_delay]", 10, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, no_output_delay]", 10, false, false, false, false, false, true); // a:F (JViewport:JComponent, cv:JFrame) - Double Click
+collapseTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 4); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, General Information]", 0, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, General Information]", 0, false, false, false, false, false, true); // a:F (JViewport:JComponent, cv:JFrame) - Double Click
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Timer Settings]", 1, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Design Timing Summary]", 2, false); // a:F (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Clock Summary]", 3, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Clock Summary]", 3, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 4, true); // a:F (JViewport:JComponent, cv:JFrame) - Node
+expandTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 4); // a:F (JViewport:JComponent, cv:JFrame)
+selectTable(PAResourceAtoD.CheckTimingSectionPanel_CHECK_TIMING_SELECTION_TABLE, "no_output_delay ; 14 ; High", 0, "no_output_delay", 0); // c:v (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Intra-Clock Paths]", 17, true); // a:F (JViewport:JComponent, cv:JFrame) - Node
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Inter-Clock Paths]", 18, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Other Path Groups]", 19, true); // a:F (JViewport:JComponent, cv:JFrame) - Node
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, User Ignored Paths]", 20, false); // a:F (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Unconstrained Paths]", 21, false); // a:F (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,536 MB. GUI used memory: 125 MB. Current time: 11/27/21 6:08:37 AM GMT+08:00

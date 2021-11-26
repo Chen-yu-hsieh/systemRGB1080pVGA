@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;VideoSystem1080p/src/VideoSystem1080p&apos; to &apos;VideoSystem1080p.c&apos;" description="Rename resource &apos;VideoSystem1080p&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/VideoSystem1080p" name="VideoSystem1080p.c" stamp="1637695833491" updateReferences="true"/>
+</session>
